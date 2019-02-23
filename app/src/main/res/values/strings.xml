@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TORGuide</string>
+    <string name="ms_world">World</string>
+    <string name="ms_combat">Combat</string>
+    <string name="ms_storm_knight">Storm Knight</string>
+    <string name="ms_other">Other</string>
+</resources>
