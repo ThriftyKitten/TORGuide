@@ -2,64 +2,87 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gaunt_man1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mashapps.torguide.MainActivity">
+    tools:context="mashapps.torguide.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TORGuide"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Combat"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/ms_combat"
-        app:layout_constraintLeft_toRightOf="@+id/button3"
-        android:layout_marginTop="231dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Storm Knight"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/button4"
-        tools:text="@string/ms_storm_knight"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.054"
+        tools:text="@string/app_name" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="World"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/button"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="337dp"
+        android:text="@string/ms_combat"
+        android:textAlignment="viewStart"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/ms_world"
-        android:layout_marginTop="231dp" />
+        tools:text="@string/ms_combat"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="402dp"
+        android:text="@string/ms_storm_knight"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/ms_storm_knight"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="467dp"
         android:text="@string/ms_other"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintLeft_toRightOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.38" />
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/ms_other"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="272dp"
+        android:onClick="goWorld"
+        android:text="@string/ms_world"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/ms_world"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
 
 </android.support.constraint.ConstraintLayout>
+
+
