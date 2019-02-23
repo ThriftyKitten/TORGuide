@@ -5,4 +5,9 @@
     <string name="ms_storm_knight">Storm Knight</string>
     <string name="ms_other">Other</string>
     <string name="ws_title">World</string>
+    <string name="ws_cosms">Cosms</string>
+    <string name="ws_world_map">World Map</string>
+    <string name="ws_axioms">Axioms</string>
+    <string name="ws_zones">Zones</string>
+    <string name="ws_contradictions">Contradictions</string>
 </resources>
