@@ -10,4 +10,10 @@
     <string name="ws_axioms">Axioms</string>
     <string name="ws_zones">Zones</string>
     <string name="ws_contradictions">Contradictions</string>
+    <string name="cs_drama_deck">Drama Deck</string>
+    <string name="cs_destiny_cards">Destiny Cards</string>
+    <string name="cs_cosm_cards">Cosm Cards</string>
+    <string name="cs_actions">Actions</string>
+    <string name="cs_damage">Damage</string>
+    <string name="cs_other_actions">Other Actions</string>
 </resources>

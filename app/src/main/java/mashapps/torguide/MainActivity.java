@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, WorldActivity.class);
         startActivity(intent);
     }
+    public void goCombat(View view) {
+        Intent intent = new Intent(this, CombatActivity.class);
+        startActivity(intent);
+    }
+
 }
